@@ -1,13 +1,4 @@
-# Android MVVM Base Architecture for Enterprise Mobile Application using Architectural Components
-
-# Highlights
-
-1. MVVM Architectural pattern
-2. Offline Support
-3. Unit test demonstration using JUnit and Mockito
-4. UI unit test demonstartion using Espresso
-5. Gradle scripts for running sonarqube static code analysis, code coverage, etc.
-
+# Android MVVM Based Architectural Components
 
 The application has been built with **offline support**. It has been designed using **Android Architecture components** with **Room** for offline data caching. The application is built in such a way that whenvever there is a service call, the result will be stored in local database.
 
@@ -17,15 +8,13 @@ The main advatage of using MVVM, there is no two way dependency between ViewMode
 # Programming Practices Followed
 a) Android Architectural Components <br/>
 b) Dagger 2 for Dependency Injection <br/>
-c) MVVM <br/>
-d) Retrofit with Okhttp <br/>
-e) Room for data caching <br/>
-f) JUnit and Mockito for Unit testing <br/>
-d) Repository pattern <br/>
-e) JSoup for HTML Parsing
-
-
-Open terminal and type the below command to generate release build <br/>
-
-``` ./gradlew assembleRelease ```
+c) Retrofit with Okhttp for Network calls<br/>
+d) Glides for Image Loading<br/>
+e) MVVM <br/>
+f) ViewModel <br/>
+g) LiveData <br/>
+h) ROOM for data caching <br/>
+j) Data binding <br/>
+H) RxJava,RXAndroid for database operation(scheduler) <br/>
+i) JUnit and Mockito for Unit testing <br/>
 
